@@ -1,0 +1,27 @@
+{
+  "name": "apollo-test-project",
+  "version": "1.0.0",
+  "description": "Project that we'll use for testing during development of performance management library",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-datasource": "^0.7.1",
+    "apollo-server": "^2.15.0",
+    "graphql": "^15.1.0",
+    "pg": "^8.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon run server/server.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsully/apollo-test-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsully/apollo-test-project/issues"
+  },
+  "homepage": "https://github.com/tsully/apollo-test-project#readme"
+}
