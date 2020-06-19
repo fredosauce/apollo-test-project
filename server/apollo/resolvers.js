@@ -8,6 +8,8 @@ module.exports = {
       dataSources.planetAPI.getPlanetById({ planetId: id }),
   },
   Person: {
+    // films: async (person, __, { dataSources }) =>
+    //   dataSources.filmLogic.getFilmsForPerson({ personId: person.id }),
     homeworld: async (person, __, { dataSources }) =>
       dataSources.planetAPI.getPlanetById({ planetId: person.homeWorldId }),
   },

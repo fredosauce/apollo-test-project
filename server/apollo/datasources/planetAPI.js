@@ -1,6 +1,6 @@
 const { DataSource } = require('apollo-datasource');
 const db = require('../../models/model.js');
-// Note: the generic DataSource class does not. You can use cache primitives to build your own caching functionality.
+// Note: the generic DataSource class does not cache. You can use cache primitives to build your own caching functionality.
 
 class PlanetAPI extends DataSource {
   constructor() {

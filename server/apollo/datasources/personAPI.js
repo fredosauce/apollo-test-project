@@ -35,7 +35,7 @@ class PersonAPI extends DataSource {
       name: person.name,
       hairColor: person.hair_color,
       skinColor: person.skin_color,
-      homeWorldId: person.homeWorldId,
+      homeWorldId: person.homeworld_id,
     };
   }
 

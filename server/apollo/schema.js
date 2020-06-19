@@ -8,6 +8,7 @@ const typeDefs = gql`
     skinColor: String
     gender: String
     # species: Species
+    homeworldId: ID
     homeworld: Planet
   }
 
